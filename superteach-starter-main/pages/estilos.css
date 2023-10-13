@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+}
+.cuerpo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px; 
+    
+}
+.encabezado{
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.der{
+    position: relative;
+    right: 50px;
+    color: white;
+}
+.font
+{
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    
+}
+.button 
+{
+    color: white;
+    padding: 5px 40px;
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-color: white;
+    background: transparent;    
+}
+
+.bajo{
+    position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            flex-direction: row;
+            display:  flex;
+            align-items: center;
+}
+
+
+
+/* Estilo CSS para el contenedor del segundo círculo */
+.imagen-contenedor2 {
+    position: relative;
+    left: 20px;
+    margin-top: 10px;
+
+}
+
+/* Estilo CSS para la segunda imagen circular */
+.imagen-redonda2 {
+    width: 100px; /* Tamaño deseado */
+    height: 100px; /* Tamaño deseado */
+    border-radius: 50%; /* Crea una forma circular */
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.imagen-derecha {
+    margin-left: 20px; /* Ajusta la cantidad de píxeles según tus necesidades */
+    
+}
+.BLANCO{
+    color: white;
+}
+
